@@ -23,3 +23,22 @@ elif num1 < num2:
     print(f"{num1} is less than {num2}")
 else:
     print(f"{num1} is equal to {num2}")
+
+# Develop a Python script that calculates the square and cube of a given number.
+
+def calculate_square(number):
+    square = number ** 2
+    return square
+
+def calculate_cube(num):
+    cube = num ** 3
+    return cube
+
+number = float(input("Enter a number: "))
+num = float(input("Enter another number please(it could be the same): "))
+
+square_result = calculate_square(number)
+cube_result = calculate_cube(num)
+
+print(f"The square of {number} is: {square_result}")
+print(f"The cube of {num} is: {cube_result}")
