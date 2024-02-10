@@ -87,3 +87,19 @@ n = int(input("Enter a number: "))
 result = factorial(n)
 print(f"{n}! = {result}")
 
+# Fibonacci
+
+# The Fibonacci series is a sequence of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1. 
+
+def generate_fibonacci(n):
+    fibonacci_series = [0, 1]
+    for i in range(2, n):
+        next_term = fibonacci_series[i-1] + fibonacci_series[i-2]
+        fibonacci_series.append(next_term)
+    return fibonacci_series
+
+n = int(input("Enter the number of terms for the Fibonacci series: "))
+
+fibonacci_result = generate_fibonacci(n)
+print(f"The Fibonacci series up to {n} terms: {fibonacci_result}")
+
