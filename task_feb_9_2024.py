@@ -103,3 +103,20 @@ n = int(input("Enter the number of terms for the Fibonacci series: "))
 fibonacci_result = generate_fibonacci(n)
 print(f"The Fibonacci series up to {n} terms: {fibonacci_result}")
 
+# ------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------------
+
+# Factorial without recursion
+
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+num = int(input("Enter a number: "))
+
+result = factorial(num)
+print(f"The factorial of {num} is: {result}")
