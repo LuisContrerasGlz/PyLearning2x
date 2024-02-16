@@ -127,3 +127,11 @@ a, b = 0, 1
 while a <= 10:
     print(a, end=" ")
     a, b = b, a + b
+
+# With input
+    
+a, b = 0, 1
+n = int(input("Enter the number for the Fibonacci series: "))
+while a <= n:
+    print(a, end=" ")
+    a, b = b, a + b
