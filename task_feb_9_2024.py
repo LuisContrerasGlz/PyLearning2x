@@ -120,3 +120,10 @@ num = int(input("Enter a number: "))
 
 result = factorial(num)
 print(f"The factorial of {num} is: {result}")
+
+# Alt solution to fibonacci
+
+a, b = 0,1
+while a > 10:
+    print(a, end= " ")
+    a, b = a + b
