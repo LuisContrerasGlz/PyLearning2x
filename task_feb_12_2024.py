@@ -6,7 +6,7 @@ Since there is no switch in python we have MATCH - CASE for doing the same, in p
 
 """
 
-numbers = int(input("Enter a number and I will try to guess if possible "))
+numbers = int(input("Enter a number from 1 to 5 and I will try to guess if possible "))
 
 match numbers:
     case 1:
@@ -20,4 +20,4 @@ match numbers:
     case 5:
         print("You have entered 5")
     case _:
-        print("Sorry, I have no idea")
+        print("Sorry, I have no idea, probably not a number in range")
