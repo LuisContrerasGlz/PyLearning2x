@@ -31,6 +31,17 @@ def rev_str_for(or_str2):
 
 print(rev_str_for("Using a for loop now"))
 
+#Palindrome check
+
+def check_palindrome(str_to_check):
+    print(str_to_check.lower())
+    print(rev_str_for(str_to_check).lower())
+    if str_to_check.lower() == rev_str_for(str_to_check).lower():
+        print("Palindrome :v ")
+    else:
+        print("not palindrome :v")
+
+check_palindrome("LOL")
 
 # --------------------------------------------------------------------------------------------------------------------------------------------
 
