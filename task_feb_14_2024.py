@@ -30,3 +30,25 @@ def rev_str_for(or_str2):
     return rev_or_srt2
 
 print(rev_str_for("Using a for loop now"))
+
+
+# --------------------------------------------------------------------------------------------------------------------------------------------
+
+# Create a function to check if a string is palindrom 
+
+def is_palindrome(input_string):
+    # Remove spaces and convert the input string to lowercase
+    input_string = input_string.replace(" ", "").lower()
+    
+    # Compare the input string with its reverse
+    if input_string == input_string[::-1]:
+        print("Palindrome")
+        return True
+    else:
+        print("Not palindrome")
+        return False
+
+
+input_str = "A man a plan a canal Panama"
+result = is_palindrome(input_str)
+
