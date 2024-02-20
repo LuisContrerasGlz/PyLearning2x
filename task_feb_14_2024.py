@@ -63,3 +63,12 @@ def is_palindrome(input_string):
 input_str = "A man a plan a canal Panama"
 result = is_palindrome(input_str)
 
+# Check if a list is empty
+
+empt_list = []
+if not empt_list:
+    print("List is empty")
+else:
+    print("Not empty")
+    
+
