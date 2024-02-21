@@ -1,5 +1,11 @@
 # Ordered Dictionary
 
+"""
+
+An OrderedDict is a dictionary subclass that maintains the order in which items are inserted. 
+Unlike a regular dictionary, which does not guarantee any specific order of items, an OrderedDict keeps track of the order in which key-value pairs are added.
+
+"""
 from collections import OrderedDict
 
 od = OrderedDict()
