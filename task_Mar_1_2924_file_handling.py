@@ -54,3 +54,13 @@ It's considered a best practice to use the with statement for file handling in P
 
 with open("TestLuis.txt", "a") as file3:
     file3.write("Hellom I am writing to this file now")
+
+with open("td.txt", "r") as multi_line_file:
+    lines = multi_line_file.readlines()
+
+print(lines)
+for line in lines:
+    print(line)
+
+for line in lines:
+    print(line, end="")
