@@ -49,3 +49,8 @@ The with statement ensures that the file is automatically closed when the block 
 It's considered a best practice to use the with statement for file handling in Python because it simplifies code and helps prevent common errors related to file management, such as forgetting to close the file.
 
 """
+
+# How to write to a file
+
+with open("TestLuis.txt", "a") as file3:
+    file3.write("Hellom I am writing to this file now")
